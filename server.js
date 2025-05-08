@@ -10,6 +10,6 @@ app.get('/api/get/user', (req,res) => {
     res.send({name : 'Anshuman', email: 'Anshu@gmail.com', 'role': 'Developer'});
 })
 
-app.listen(9000, (req,res) => {
-    console.log('server running on port 9000')
+app.listen(8000, (req,res) => {
+    console.log('server running on port 8000')
 })
